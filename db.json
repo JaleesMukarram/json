@@ -1,18 +1,14 @@
-[
-   {
-      "news_id":"276526",
-      "news_title":"CGT Exams date announced",
-      "news_details":"The dates of the CGT exams has been added. Please check and prepare accordingly.",
-      "news_link":null,
-      "news_image_link":"http:\/\/localhost\/resful\/includes\/news\/1593779895.jpeg",
-      "news_category":"Exams dates"
-   },
-   {
-      "news_id":"837708",
-      "news_title":"CGT Exams date announced",
-      "news_details":"The dates of the CGT exams has been added. Please check and prepare accordingly.",
-      "news_link":null,
-      "news_image_link":"http:\/\/localhost\/resful\/includes\/news\/1593779832.jpeg",
-      "news_category":"Exams dates"
-   }
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
